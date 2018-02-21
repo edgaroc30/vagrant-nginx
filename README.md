@@ -1,0 +1,1 @@
+This is a template Vagrant to create an Ubuntu Trusty 64 with Nginx
