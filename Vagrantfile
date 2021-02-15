@@ -5,6 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
     vb.name = "nginxVagrant"
     vb.memory = "1024"
+    vb.customize ["modifyvm", :id, "--cpus", 2]
 
   end
 
